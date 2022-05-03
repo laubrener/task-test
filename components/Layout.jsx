@@ -8,7 +8,9 @@ export default function Layout({children}) {
             <title>Next JS - Task Manager</title>
             <link rel="icon" href="/favicon.ico" />
         </Head>
-        <nav>TODO LIST</nav>
+        <nav className={styles.navbar}>
+          <h3 className={styles.navText}>TODO LIST</h3>
+        </nav>
         <main>{children}</main>
     </div>
   )
